@@ -14,7 +14,7 @@ module.exports = {
       testMatch: ['<rootDir>/**/*(*.)+(spec).ts'],
       preset: 'ts-jest',
       modulePathIgnorePatterns,
-      rootDir: './backend/main-server'
+      rootDir: './'
     },
     {
       displayName: 'integration',
@@ -22,7 +22,7 @@ module.exports = {
       testMatch: ['<rootDir>/**/*(*.)+(test).ts'],
       preset: 'ts-jest',
       modulePathIgnorePatterns,
-      rootDir: './backend/main-server'
+      rootDir: './'
     }
   ]
 };
